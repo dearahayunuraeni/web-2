@@ -1,0 +1,29 @@
+1. Jelaskan apa yang dimaksud dengan dokumen root ?
+    jawaban: 
+    adalah dokumen utama dalam suatu website atau aplikasi web yang biasanya menjadi titik awal atau halaman pertama yang akan diakses oleh pengguna
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori
+   C:\xampp\htdocs ? Jelaskan jawaban anda
+    jawaban: 
+    Tidak, dokumen root pada Apache web server tidak harus selalu berada di C:\xampp\htdocs. Htdocs hanya merupakan lokasi default untuk XAMPP. 
+    Lokasi document root bisa diubah sesuai kebutuhan dengan mengedit file konfigurasi Apache.
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push
+   dan checkout
+    jawaban:
+    init --> Menginisialisasi repository Git baru di direktori kerja, Membuat subdirektori tersembunyi .git yang berisi semua informasi yang diperlukan untuk repository
+    clone --> Mengunduh salinan lengkap dari repository yang sudah ada. Termasuk semua file, branch, dan history commit
+    remote --> Mengelola koneksi ke repository jarak jauh (remote). Digunakan untuk menambah, menghapus atau melihat remote repository
+    add --> Menambahkan file ke staging area untuk dipersiapkan commit, Bisa menambah file spesifik atau semua perubahan
+    commit --> Menyimpan perubahan yang ada di staging area ke repository, Harus disertai pesan commit yang menjelaskan perubahan
+    push --> Mengirim commit lokal ke repository remote, Mengupdate branch di remote dengan perubahan lokal
+4. Jelaskan perbedaan antara GitHub dan GitLab
+    jawaban:
+    GitHub --> Repository publik gratis, biaya untuk private repository. Terutama hosting berbasis cloud, dimiliki oleh Microsoft
+    GitLab --> Menawarkan versi self-hosted dan cloud. Semua repository (publik/private) gratis, platform open-source
+5. Apa bedanya variable user dengan variable system ?
+    jawaban:
+    variable user --> Berlaku hanya untuk pengguna tertentu yang sedang login. Disimpan di dalam profil pengguna,setiap pengguna dapat memiliki nilai variabel yang berbeda.
+    variable system --> Berlaku untuk semua pengguna dalam sistem. Disimpan di dalam Registry Windows di HKEY_LOCAL_MACHINE, membutuhkan hak akses administrator untuk
+    mengeditnya.
+6. Apa persamaan variable system dengan variable constant ?
+    jawaban:
+    keduanya bersifat global, dapat di akses dibanyak tempat, berfungsi untuk konfigurasi dan pengaturan. 
